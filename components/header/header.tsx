@@ -6,12 +6,7 @@ import {
   ThemeSettings,
   useTheme,
 } from "../../contexts/theme-context";
-import Image from "next/image";
-// import logo from "../../public/images/common/logo.svg";
-import menuIcon from "../../public/images/common/menu-60.svg";
-import { MobileMenu } from "./mobile-menu";
 import { DesktopMenu } from "./desktop-menu";
-import Link from "next/link";
 
 const HeaderWrapper = styled.div<ThemePropsRequired>`
   display: flex;
